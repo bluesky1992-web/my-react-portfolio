@@ -4,10 +4,9 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import '../styles/Experience.css'
+import "../styles/Experience.css";
 import SchoolIcon from "@mui/icons-material/School";
 import WorkIcon from "@mui/icons-material/Work";
-
 
 export default function Experience() {
   return (
@@ -22,9 +21,7 @@ export default function Experience() {
           <h3 className="vertical-timeline-element-title">
             My Random High School , Random Place, Random State
           </h3>
-          <p>
-            High School Diploma
-          </p>
+          <p>High School Diploma</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -73,9 +70,6 @@ export default function Experience() {
             end and back end.
           </p>
         </VerticalTimelineElement>
-        
-        
-        
       </VerticalTimeline>
     </div>
   );
