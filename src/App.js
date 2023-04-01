@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
+import './index.css'
 import Home from "./pages/Home";
 import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
@@ -9,7 +10,7 @@ import ProjectDisplay from "./pages/ProjectDisplay";
 
 function App() {
   return (
-    <div className="App">
+    <div className="m-0 p-0 flex flex-col w-full h-auto fontar">
       <Router>
         <Navbar />
         <Routes>
