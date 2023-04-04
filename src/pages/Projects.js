@@ -11,12 +11,20 @@ export default function Projects() {
       <div className="projectList">
         {projectList.map((project, idx) => {
           return (
-            <ProjectItem
+            <div>
+             
+                  <ProjectItem
               id={idx}
             
               name={project.name}
               image={project.image}
+              
             />
+             
+             
+            </div>
+           
+           
           );
         })}
       </div>

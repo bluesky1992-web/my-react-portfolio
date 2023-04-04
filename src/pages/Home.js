@@ -9,10 +9,11 @@ import Summary from "../components /Summary";
 export default function Home() {
   return (
     <div className="w-full   items-center font-[Arial] text-[#3e497a] ">
+      
       <div className=" h-[600px] bg-[#21325e] flex flex-col justify-center items-center text-center text-slate-200">
         <div className="w-full flex justify-center items-center">
           <img
-            className="w-[170px]  items-center sm:w-[250px] object-fit rounded-full mt-10 "
+            className="border-4 border-amber-400 w-[170px]  items-center sm:w-[250px] object-fit rounded-full mt-10 "
             src={myimg}
             alt="Alis ibrahim"
           />
@@ -25,6 +26,7 @@ export default function Home() {
             A Front-end Developer with a passion for learning and creating{" "}
           </p>
         </div>
+        
         <div className="pb-10  ">
           <a
             href="https://www.linkedin.com/in/ali-i-077196245/"
@@ -53,19 +55,20 @@ export default function Home() {
           </a>
         </div>
       </div>
+      <Summary />
       <div className="text-2xl sm:text-4xl  w-full flex justify-center flex-col items-center">
-        <h1 className="m-10 text-[#3e497a]" >Skills</h1>
+        <h1 className="m-10 text-[#3e497a] text-xl sm:text-3xl" >Skills</h1>
         <ol className="list list-none w-[60%] text-center sm:text-left ">
           <li className="item">
-            <h2 className=" sm:text-4xl text-3xl ">front-end</h2>
-            <span className="text-xl  ">
+            <h2 className=" text-xl sm:text-2xl  md:text-3xl ">front-end</h2>
+            <span className=" text-base sm:text-xl  ">
               ReactJS, HTML, CSS, NPM, Bootstrap, MaterialUI,
               TailwindCSS, JavaScript
             </span>
           </li>
         </ol>
       </div>
-      <Summary />
+      
     </div>
   );
 }
