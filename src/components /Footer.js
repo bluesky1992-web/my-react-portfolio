@@ -36,7 +36,7 @@ export default function Footer() {
           }}
         />
       </div>
-      <p>&copy; 2023 Ali.com</p>
+      <p className="text-white">&copy; 2023 Ali.com</p>
     </div>
   );
 }

@@ -11,24 +11,21 @@ function ProjectDisplay() {
   return (
     <div className="project">
       <h1>{project.name}</h1>
-      <Link to={project.link} target="_blank" >
+      <Link to={project.link} target="_blank">
         <img alt="project" src={project.image} />
       </Link>
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-    <Link target='_blank' to={project.github}>
-    <GithubIcon
-           
-            sx={{
-              fontSize: 47,
-              paddingLeft: 2,
-              cursor: "pointer",
-            }}
-          />
-    </Link>
-          
-         
+      <Link target="_blank" to={project.github}>
+        <GithubIcon
+          sx={{
+            fontSize: 47,
+            paddingLeft: 2,
+            cursor: "pointer",
+          }}
+        />
+      </Link>
     </div>
   );
 }

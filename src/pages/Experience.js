@@ -14,31 +14,14 @@ export default function Experience() {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-Timeline-element--education"
-          date="2010-2014"
+          date="2014-2017"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">
-            My Random High School , Random Place, Random State
-          </h3>
+          <h3 className="vertical-timeline-element-title">Reza HighSchool</h3>
           <p>High School Diploma</p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2014 - 2018"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            My Cool University, Vancouver, British Columbia
-          </h3>
 
-          <h4 className="vertical-timeline-element-subtitle">
-            Bachelor's Degree
-          </h4>
-
-          <p> Computer Science</p>
-        </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2018 - 2020"
@@ -46,28 +29,38 @@ export default function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Back End Engineer - Google
+            Supervisor - Saman insurance company
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>Developed the backend infrastructure for 3 projects.</p>
+          <h4 className="vertical-timeline-element-subtitle">Iraq,Baghdad</h4>
+          <p>Leading a group of five employees To deliver high quality work </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2020 - present"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
+          date="2022 - 2023"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Full Stack Engineer - Twitch
+            Front-end development bootcamp - Re:coded
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
+          <h4 className="vertical-timeline-element-subtitle">Online</h4>
           <p>
-            Helped the team launch 2 major features by working both in the front
-            end and back end.
+            Immersive boot camp and highly competitive, with a 5% acceptance
+            rate. * Completing a five-month immersive coding boot camp, with
+            400+ hours of curricula and project-based learning * Technologies:
+            HTML, CSS, JavaScript, React * Co-creating various responsive web
+            applications from scratch. Revisit my profile when I graduate in
+            2023 to see what I’ve learned.Re:Coded prepares youth for the future
+            of work, by equipping them with the technical and soft skills (such
+            as teamwork and business communication) to thrive as web developers
+            and designers. Immersive boot camp and highly competitive, with a 5%
+            acceptance rate. * Completing a five-month immersive coding boot
+            camp, with 400+ hours of curricula and project-based learning *
+            Technologies: HTML, CSS, JavaScript, React * Co-creating various
+            responsive web applications from scratch. Revisit my profile when I
+            graduate in 2023 to see what I’ve learned. Skills: Software
+            Development · Web Applications · React.js · Front-End Development ·
+            English
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
