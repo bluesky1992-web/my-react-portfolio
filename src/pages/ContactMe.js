@@ -10,7 +10,7 @@ export default function ContactMe() {
           <div class="max-w-md mx-auto my-10 bg-gray-300 p-5 rounded-md shadow-sm">
             <div class="text-center">
               <h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">
-                Contact Us
+                Contact Me <span className="text-2xl">😊</span>
               </h1>
               <p className="text-gray-700 dark:text-gray-400">
                 Fill up the form below to send me a message.
