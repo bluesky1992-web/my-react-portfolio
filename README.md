@@ -1,7 +1,6 @@
-# Getting Started with Create React App
+# my portfolio created using  `create-react-app` 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+i had difficulty deploying my project to github pages but this [website](https://blog.logrocket.com/deploying-react-apps-github-pages/) have helped me to fgure it out 
 ## Available Scripts
 
 In the project directory, you can run:
