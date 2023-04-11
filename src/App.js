@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 
 import './index.css'
 import Home from "./pages/Home";
@@ -13,7 +13,6 @@ import ContactMe from "./pages/ContactMe";
 function App() {
   return (
     <div className="m-0 p-0 flex flex-col w-full h-auto ">
-      <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,7 +22,6 @@ function App() {
           <Route path="/contactme" element={<ContactMe />} />
         </Routes>
         <Footer />
-      </Router>
     </div>
   );
 }
