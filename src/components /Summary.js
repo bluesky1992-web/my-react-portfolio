@@ -19,6 +19,7 @@ export default function Summary() {
           producing code that accurately corresponds to the design.
         </p>
       </div>
+     
     </div>
   );
 }

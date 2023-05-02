@@ -1,19 +1,17 @@
 import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GithubIcon from "@mui/icons-material/GitHub";
-
-
+import cv from "../assets/cv.pdf";
 import myimg from "../assets/myimg.jpg";
 import Summary from "../components /Summary";
 
 export default function Home() {
   return (
     <div className="w-full   items-center font-[Arial] text-[#3e497a] ">
-      
-      <div className=" h-[600px] bg-[#21325e] flex flex-col justify-center items-center text-center text-slate-200">
-        <div className="w-full flex justify-center items-center">
+      <div className=" h-[800px] bg-[#21325e] flex flex-col justify-center items-center text-center text-slate-200">
+        <div className="w-full flex justify-center items-center ">
           <img
-            className="border-4 border-amber-400 w-[170px]  items-center sm:w-[250px] object-fit rounded-full mt-10 "
+            className="border-4 border-amber-400 w-[170px]  items-center sm:w-[250px]  rounded-full  "
             src={myimg}
             alt="Alis ibrahim"
           />
@@ -23,11 +21,18 @@ export default function Home() {
         </h2>
         <div className="prompt w-[80%] sm:w-[50%]  text-sm md:text-lg lg:text-2xl pb-10">
           <p className=" border-b-4 border-dashed border-  border-b-amber-400 pb-5  ">
-            A Front-end Developer with a passion for learning and creating{" "}
+            A Front-end Developer with a passion for learning and creating based in Iraq, Baghdad 
           </p>
         </div>
-        
-        <div className="pb-10  ">
+        <a
+          className="  rounded-lg text-xs sm:text-sm hover:bg-amber-400  transition-colors duration-300 ease-in-out  hover:text-black  border-2 border-amber-300 p-2 mb-2 "
+          href={cv}
+          download
+        >
+          Download my resume
+        </a>
+
+        <div className="  ">
           <a
             href="https://www.linkedin.com/in/ali-i-077196245/"
             target="_blank"
@@ -45,30 +50,29 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-          <GithubIcon
-            sx={{
-              fontSize: 47,
-              paddingLeft: 2,
-              cursor: "pointer",
-            }}
-          />
+            <GithubIcon
+              sx={{
+                fontSize: 47,
+                paddingLeft: 2,
+                cursor: "pointer",
+              }}
+            />
           </a>
         </div>
       </div>
       <Summary />
       <div className="text-2xl sm:text-4xl  w-full flex justify-center flex-col items-center">
-        <h1 className="m-10 text-[#3e497a] text-xl sm:text-3xl" >Skills</h1>
+        <h1 className="m-10 text-[#3e497a] text-xl sm:text-3xl">Skills</h1>
         <ol className="list list-none w-[60%] text-center sm:text-left ">
           <li className="item">
             <h2 className=" text-xl sm:text-2xl  md:text-3xl ">front-end</h2>
             <span className=" text-base sm:text-xl  ">
-              ReactJS, HTML, CSS, NPM, Bootstrap, MaterialUI,
-              TailwindCSS, JavaScript
+              ReactJS, HTML, CSS, NPM, Bootstrap, MaterialUI, TailwindCSS,
+              JavaScript
             </span>
           </li>
         </ol>
       </div>
-      
     </div>
   );
 }

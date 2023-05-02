@@ -1,5 +1,6 @@
 .projects {
     width: 100%;
+    margin-left: -70px;
     height: auto;
     display: flex;
     justify-content: center;
